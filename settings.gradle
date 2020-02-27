@@ -1,0 +1,2 @@
+include ':app', ':recycler', ':navigationdraweractivtiy', ':fragment'
+rootProject.name='Soe'
