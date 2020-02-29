@@ -1,2 +1,2 @@
-include ':app', ':recycler', ':navigationdraweractivtiy', ':fragment'
+include ':app', ':recycler', ':navigationdraweractivtiy', ':fragment', ':retrofit', ':localstoarge', ':camerademo'
 rootProject.name='Soe'
