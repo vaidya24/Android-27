@@ -1,13 +1,13 @@
 package com.vaishnavi.recycler;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+        import androidx.appcompat.app.AppCompatActivity;
+        import androidx.recyclerview.widget.LinearLayoutManager;
+        import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
+        import android.os.Bundle;
 
-import java.util.ArrayList;
-import java.util.List;
+        import java.util.ArrayList;
+        import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     int[]images;
@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         recyclerView=findViewById(R.id.recyclerView);
         images=new int[]{R.drawable.kitkat,R.drawable.kitkat2,R.drawable.loli,R.drawable.lolipop,
-        R.drawable.lollipop};
+                R.drawable.lollipop};
 
-       names=new String[] {"kitkat","kitkat2","loli","lolipop","lollipop"};
+        names=new String[] {"kitkat","kitkat2","loli","lolipop","lollipop"};
         LinearLayoutManager linearLayoutManager=
                 new LinearLayoutManager(MainActivity.this);
 

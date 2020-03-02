@@ -21,7 +21,7 @@ import java.security.PrivateKey;
 import java.util.List;
 
 public class VersionAdapter extends RecyclerView.Adapter<VersionAdapter.VersionHolder>
-n
+
 {
     private Context context;
     private List<AndroidVERSION> list;
